@@ -7,7 +7,8 @@ describe 'ProjectFib' do
   end
 
   it 'should find the sum of the even numbers in the Fibonacci sequence' do
-    pending
+    @fi.projectfib_iterator(1, 4000000)
+    expect(@fi.total).to eq 3999998000000
   end
 
 end
