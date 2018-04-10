@@ -7,4 +7,4 @@
 ### I have been given an rspec file and asked to fix the errors to get the test working
 
 # rspec_calulator
-### I have created a test program to calculate with all calculating operations. All have passes.
+### I have created a test program to calculate with all calculating operations. All have passes. I have also included a hook so all new calculations do not need to be called all the time.
