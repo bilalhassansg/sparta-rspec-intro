@@ -23,7 +23,4 @@ class ProjectEuler
       end
     end
   end
-
-
-
 end
