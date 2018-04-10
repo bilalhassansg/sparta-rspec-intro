@@ -26,9 +26,9 @@ describe 'FizzBuzz' do
 
 
   it 'should correclt apply fizzbuzz to given range' do
-    @fb.fizzbuzz_iterator(1, 100)
+    @fb.fizzbuzz_iterator(1, 15)
     expect(@fb.fizzbuzz_array[0]).to eq 1
-    expect(@fb.fizzbuzz_array[14]).to eq 'FizzBuzz'
+    expect(@fb.fizzbuzz_array[-1]).to eq 'FizzBuzz'
     expect(@fb.fizzbuzz_array[2]).to eq 'Fizz'
     expect(@fb.fizzbuzz_array[4]).to eq 'Buzz'
   end
